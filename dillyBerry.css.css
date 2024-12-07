@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: American Typewriter, serif;
+    font-weight:300;
+}
+
+.background-mural {
+    background-image: url('images/bison.jpeg'); 
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    color: #500685; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
