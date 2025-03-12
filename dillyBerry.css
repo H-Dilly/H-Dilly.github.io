@@ -11,7 +11,7 @@ html, body {
     background-position: center center; 
     background-repeat: no-repeat; 
     height: 100vh;
-    color: #3a0a5c; 
+    color: purple; 
     display: flex;
     justify-content: center;
     align-items: center;
