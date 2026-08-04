@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Name | Resume</title>
+<title>Hayden Dilworth | Resume</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -14,6 +14,10 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     font-family:'Inter',sans-serif;
     background:#f4f7fa;
@@ -21,50 +25,44 @@ body{
     line-height:1.6;
 }
 
-.container{
-    max-width:1100px;
-    margin:auto;
-    padding:40px 25px;
-}
-
 header{
-    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    background:linear-gradient(135deg,#1f3c88,#29539b);
     color:white;
     text-align:center;
-    padding:70px 20px;
+    padding:80px 20px;
 }
 
 header h1{
-    font-size:3rem;
+    font-size:3.2rem;
+    margin-bottom:10px;
 }
 
 header p{
-    margin-top:10px;
     font-size:1.2rem;
     opacity:.9;
 }
 
 .buttons{
-    margin-top:30px;
+    margin-top:35px;
 }
 
 .btn{
     display:inline-block;
-    margin:8px;
+    text-decoration:none;
     padding:12px 24px;
     border-radius:6px;
-    text-decoration:none;
+    margin:8px;
     font-weight:600;
     transition:.3s;
 }
 
 .btn-primary{
     background:white;
-    color:#1e3c72;
+    color:#29539b;
 }
 
 .btn-primary:hover{
-    background:#e8edf7;
+    background:#ececec;
 }
 
 .btn-outline{
@@ -74,86 +72,98 @@ header p{
 
 .btn-outline:hover{
     background:white;
-    color:#1e3c72;
+    color:#29539b;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 25px;
 }
 
 section{
-    margin:60px 0;
+    margin-bottom:60px;
 }
 
-.section-title{
-    font-size:2rem;
-    color:#1e3c72;
+h2{
+    color:#29539b;
     margin-bottom:20px;
-}
-
-.grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:25px;
+    font-size:2rem;
 }
 
 .card{
     background:white;
-    padding:25px;
+    padding:30px;
     border-radius:12px;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:25px;
+}
+
+.job h3{
+    color:#29539b;
+}
+
+.job span{
+    color:#777;
+    font-size:.95rem;
+}
+
+.job ul{
+    margin-top:15px;
+    padding-left:20px;
 }
 
 .skills{
     display:flex;
     flex-wrap:wrap;
-    gap:10px;
+    gap:12px;
 }
 
 .skill{
-    background:#1e3c72;
+    background:#29539b;
     color:white;
     padding:8px 14px;
     border-radius:50px;
     font-size:.9rem;
 }
 
-.job{
-    margin-bottom:25px;
-}
-
-.job h3{
-    color:#1e3c72;
-}
-
-.job span{
-    color:#777;
-    font-size:.9rem;
-}
-
 footer{
+    background:#1f3c88;
+    color:white;
     text-align:center;
-    padding:40px;
-    color:#777;
+    padding:30px;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
 
 header h1{
-font-size:2.2rem;
+font-size:2.3rem;
+}
+
+.grid{
+grid-template-columns:1fr;
 }
 
 }
 </style>
-
 </head>
+
 <body>
 
 <header>
 
-<h1>Your Name</h1>
+<h1>Hayden Dilworth</h1>
 
-<p>Property Manager • Customer Service Professional • Computer Science Student</p>
+<p>Client Support Specialist • Property Management • Customer Service Professional</p>
 
 <div class="buttons">
-<a href="mailto:you@email.com" class="btn btn-primary">Contact Me</a>
-<a href="#" class="btn btn-outline">Download Resume</a>
+<a class="btn btn-primary" href="mailto:htdilworth@gmail.com">Email Me</a>
+<a class="btn btn-outline" href="tel:4024907265">Call Me</a>
 </div>
 
 </header>
@@ -162,12 +172,12 @@ font-size:2.2rem;
 
 <section>
 
-<h2 class="section-title">Professional Summary</h2>
+<h2>Professional Summary</h2>
 
 <div class="card">
 
 <p>
-Experienced property management and customer service professional with expertise in homeowner associations, tenant relations, administrative operations, and client communication. Passionate about delivering exceptional customer experiences while continuously expanding technical skills in software development and technology.
+Experienced client support and property management professional with a strong background in homeowner association management, tenant relations, hospitality, and customer service. Known for handling high-volume communications, resolving complex issues efficiently, and building positive relationships with tenants, homeowners, guests, and property managers. Dedicated to delivering exceptional service while maintaining professionalism in fast-paced environments.
 </p>
 
 </div>
@@ -176,36 +186,38 @@ Experienced property management and customer service professional with expertise
 
 <section>
 
-<h2 class="section-title">Experience</h2>
+<h2>Professional Experience</h2>
 
 <div class="grid">
 
 <div class="card job">
 
-<h3>Property Manager</h3>
+<h3>Client Support Specialist – Property Management</h3>
 
-<span>Company Name | 2025–Present</span>
+<span>PJ Morgan Real Estate | Omaha, Nebraska</span><br>
+<span>July 2025 – Present</span>
 
 <ul>
-<li>Managed homeowner and tenant communications.</li>
-<li>Coordinated maintenance vendors and contractors.</li>
-<li>Prepared professional correspondence and reports.</li>
-<li>Oversaw HOA compliance and administrative operations.</li>
+<li>Serve as the primary point of contact for tenants and HOA homeowners.</li>
+<li>Handle 30+ phone calls daily while consistently exceeding customer satisfaction expectations.</li>
+<li>Manage a high volume of tenant and homeowner email communications.</li>
+<li>Coordinate closely with property managers to ensure issues are resolved promptly.</li>
+<li>Process condominium and resale questionnaires.</li>
 </ul>
 
 </div>
 
 <div class="card job">
 
-<h3>Front Desk Agent</h3>
+<h3>Guest Service Representative – Front Desk</h3>
 
-<span>Luxury Hotel | Previous Role</span>
+<span>The Farnam Hotel | Omaha, Nebraska</span><br>
+<span>June 2022 – April 2025</span>
 
 <ul>
-<li>Delivered exceptional guest experiences.</li>
-<li>Handled reservations and guest requests.</li>
-<li>Resolved customer concerns professionally.</li>
-<li>Maintained high customer satisfaction ratings.</li>
+<li>Provided exceptional guest service before, during, and after each stay.</li>
+<li>Helped contribute to the hotel earning Marriott Autograph Collection Hotel of the Year in North America.</li>
+<li>Created memorable guest experiences through personalized service.</li>
 </ul>
 
 </div>
@@ -216,22 +228,25 @@ Experienced property management and customer service professional with expertise
 
 <section>
 
-<h2 class="section-title">Skills</h2>
+<h2>Skills</h2>
 
 <div class="card">
 
 <div class="skills">
 
-<span class="skill">Customer Service</span>
+<span class="skill">Tenant Relations</span>
 <span class="skill">Property Management</span>
-<span class="skill">HOA Administration</span>
-<span class="skill">Communication</span>
-<span class="skill">Leadership</span>
+<span class="skill">Customer Service</span>
+<span class="skill">Hospitality</span>
+<span class="skill">Fair Housing</span>
+<span class="skill">Dispute Resolution</span>
+<span class="skill">Tenant Screening</span>
+<span class="skill">Tenant Retention</span>
+<span class="skill">Administrative Support</span>
+<span class="skill">Operations Coordination</span>
 <span class="skill">Problem Solving</span>
-<span class="skill">HTML</span>
-<span class="skill">CSS</span>
-<span class="skill">JavaScript</span>
-<span class="skill">Python</span>
+<span class="skill">Cross-cultural Communication</span>
+<span class="skill">Mandarin Chinese</span>
 
 </div>
 
@@ -241,15 +256,15 @@ Experienced property management and customer service professional with expertise
 
 <section>
 
-<h2 class="section-title">Education</h2>
+<h2>Education</h2>
 
 <div class="card">
 
-<h3>Computer Science</h3>
+<h3>Skyline High School</h3>
 
-<p>Community College</p>
+<p>Salt Lake City, Utah</p>
 
-<p>Currently pursuing studies in programming, software development, and computer science fundamentals.</p>
+<p>Graduated May 2017</p>
 
 </div>
 
@@ -257,17 +272,15 @@ Experienced property management and customer service professional with expertise
 
 <section>
 
-<h2 class="section-title">Contact</h2>
+<h2>Contact</h2>
 
 <div class="card">
 
-<p><strong>Email:</strong> you@email.com</p>
+<p><strong>Email:</strong> htdilworth@gmail.com</p>
 
-<p><strong>Phone:</strong> (555) 555-5555</p>
+<p><strong>Phone:</strong> (402) 490-7265</p>
 
-<p><strong>LinkedIn:</strong> linkedin.com/in/yourname</p>
-
-<p><strong>GitHub:</strong> github.com/yourusername</p>
+<p><strong>Location:</strong> Mesa, Arizona</p>
 
 </div>
 
@@ -277,7 +290,7 @@ Experienced property management and customer service professional with expertise
 
 <footer>
 
-<p>© 2026 Your Name | All Rights Reserved</p>
+<p>© 2026 Hayden Dilworth</p>
 
 </footer>
 
