@@ -1,16 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dillyBerry</title>
-    <link rel="stylesheet" href="/dillyBerry.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name | Resume</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#f4f7fa;
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 25px;
+}
+
+header{
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.2rem;
+    opacity:.9;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+.btn{
+    display:inline-block;
+    margin:8px;
+    padding:12px 24px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:white;
+    color:#1e3c72;
+}
+
+.btn-primary:hover{
+    background:#e8edf7;
+}
+
+.btn-outline{
+    border:2px solid white;
+    color:white;
+}
+
+.btn-outline:hover{
+    background:white;
+    color:#1e3c72;
+}
+
+section{
+    margin:60px 0;
+}
+
+.section-title{
+    font-size:2rem;
+    color:#1e3c72;
+    margin-bottom:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#1e3c72;
+    color:white;
+    padding:8px 14px;
+    border-radius:50px;
+    font-size:.9rem;
+}
+
+.job{
+    margin-bottom:25px;
+}
+
+.job h3{
+    color:#1e3c72;
+}
+
+.job span{
+    color:#777;
+    font-size:.9rem;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#777;
+}
+
+@media(max-width:600px){
+
+header h1{
+font-size:2.2rem;
+}
+
+}
+</style>
+
 </head>
 <body>
-    <div class="background-mural">
-        <h1>"I don't see any reaon why helping each other out is precluded by being part of a religion." - A Wise Man</h1>
-    </div>>
+
+<header>
+
+<h1>Your Name</h1>
+
+<p>Property Manager • Customer Service Professional • Computer Science Student</p>
+
+<div class="buttons">
+<a href="mailto:you@email.com" class="btn btn-primary">Contact Me</a>
+<a href="#" class="btn btn-outline">Download Resume</a>
+</div>
+
+</header>
+
+<div class="container">
+
+<section>
+
+<h2 class="section-title">Professional Summary</h2>
+
+<div class="card">
+
+<p>
+Experienced property management and customer service professional with expertise in homeowner associations, tenant relations, administrative operations, and client communication. Passionate about delivering exceptional customer experiences while continuously expanding technical skills in software development and technology.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Experience</h2>
+
+<div class="grid">
+
+<div class="card job">
+
+<h3>Property Manager</h3>
+
+<span>Company Name | 2025–Present</span>
+
+<ul>
+<li>Managed homeowner and tenant communications.</li>
+<li>Coordinated maintenance vendors and contractors.</li>
+<li>Prepared professional correspondence and reports.</li>
+<li>Oversaw HOA compliance and administrative operations.</li>
+</ul>
+
+</div>
+
+<div class="card job">
+
+<h3>Front Desk Agent</h3>
+
+<span>Luxury Hotel | Previous Role</span>
+
+<ul>
+<li>Delivered exceptional guest experiences.</li>
+<li>Handled reservations and guest requests.</li>
+<li>Resolved customer concerns professionally.</li>
+<li>Maintained high customer satisfaction ratings.</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Skills</h2>
+
+<div class="card">
+
+<div class="skills">
+
+<span class="skill">Customer Service</span>
+<span class="skill">Property Management</span>
+<span class="skill">HOA Administration</span>
+<span class="skill">Communication</span>
+<span class="skill">Leadership</span>
+<span class="skill">Problem Solving</span>
+<span class="skill">HTML</span>
+<span class="skill">CSS</span>
+<span class="skill">JavaScript</span>
+<span class="skill">Python</span>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Education</h2>
+
+<div class="card">
+
+<h3>Computer Science</h3>
+
+<p>Community College</p>
+
+<p>Currently pursuing studies in programming, software development, and computer science fundamentals.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Contact</h2>
+
+<div class="card">
+
+<p><strong>Email:</strong> you@email.com</p>
+
+<p><strong>Phone:</strong> (555) 555-5555</p>
+
+<p><strong>LinkedIn:</strong> linkedin.com/in/yourname</p>
+
+<p><strong>GitHub:</strong> github.com/yourusername</p>
+
+</div>
+
+</section>
+
+</div>
+
+<footer>
+
+<p>© 2026 Your Name | All Rights Reserved</p>
+
+</footer>
+
 </body>
 </html>
-
